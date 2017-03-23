@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+    <meta name="description" content="Wikipedia Viewer"     />
+    <meta name="title" content="Wikipedia Viewer"     />
+    <meta name="url" content="http://www.allentowngroup.com/wikipedia-viewer/"   />
+    <meta name="og:image" content="img/ra-logo40"   />
+    <meta name="author" content="Robert Allen"      />
+    <base target="_blank">
+    <link rel="stylesheet" href="style.css"  type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Kavoon|Lobster|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.53/responsiveslides.min.js"></script>
+<title>wikipedia viewer</title>    
+    
+</head>
+
+
+
+<body>
+
+
+<!-- Jumbotron -->
+<div class='jumbotron'>
+  <div class='container'>
+    <div class='home-text-jumbotron center-block text-center'>
+      <h1 class='text-muted top'>Wikipedia Viewer</h1>
+      <p>Look up anything:
+        <input id='searchFor' type='text' placeholder='Search...'>
+        <button class='icon' id='searchBtn'><i class='glyphicon glyphicon-search'></i></button>
+      </p>
+      <p>Or
+        <button id='fetchBtn'>fetch</button> a random article.
+      </p>
+
+    </div>
+  </div> <!-- End container -->
+</div> <!-- End jumbotron -->
+
+<!-- Search results -->
+<div class='container'>
+  <ul class='result-box' id='result'></ul>
+</div>
+
+<!-- Footer -->
+
+<!-- Fixed navbar -->
+<nav class='navbar navbar-inverse navbar-fixed-bottom'>
+    <div class="container">
+    <div class="col-md-6 text-center" id="soc">
+      <ul class="social-icons list-unstyled list-inline">
+        <li><a href="https://www.linkedin.com/in/robert-allen-44020778"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://codepen.io/bobbidigi34/"><i class="fa fa-codepen"></i></a></li>
+        <li><a href="https://github.com/bobbidigi"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://twitter.com/bobbidigi0"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+    </div>
+      <div class="col-md-6 text-center">
+        <p class='text-muted copy'>&copy; Robert Allen 2017</p>
+      </div>
+    </div>  
+</nav>
+<script src="https://use.fontawesome.com/ee3450e17c.js"></script>
+</body>
+</html>
