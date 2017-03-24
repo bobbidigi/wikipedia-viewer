@@ -30,10 +30,13 @@ body {
 /*  padding-left: 7px;*/
 /*  border: none;*/
 }
+#fetch{
+    padding-top: 5%;
+}
 #fetchBtn {
   border: none;
   background-color: #717E9C;
-  padding: 2px 10px 0px 10px;
+  padding: 0px 10px 0px 10px;
   color: white;
   border-radius: 7px;
   margin-right: 2px;

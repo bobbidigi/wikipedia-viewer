@@ -35,15 +35,27 @@
      <div class=" title text-center">
       <h1 class='text-muted top'>Wikipedia Viewer</h1>
      </div>
-     <div>
-      <p>
-        <input id='searchFor' type='text' placeholder='Search...'>
-        <button class='icon' id='searchBtn'><i class='glyphicon glyphicon-search'></i></button>
-      </p>
+     <div class="input-group has-feedback has-success">
+        <label for="textInput4" class="sr-only">Search...</label>
+        <span class="input-group-btn">
+        <button id="searchBtn" type="button" class="btn btn-default">Search</button>
+        </span>
+        <input id="searchFor" type="text" class="form-control" id="textInput4" placeholder="Search...">
+        <span class="glyphicon glyphicon-search form-control-feedback"></span> 
+        <span class="sr-only">warning</span>
      </div>
+     
+<!--     <div>-->
+<!--      <p>-->
+<!--        <input id='searchFor' type='text' placeholder='Search...'>-->
+<!--        <button class='icon' id='searchBtn'><i class='glyphicon glyphicon-search'></i></button>-->
+<!--      </p>-->
+<!--     </div>-->
+     <div id="fetch">
       <p>Or
         <button id='fetchBtn'>fetch</button> a random article.
       </p>
+     </div>
 
     </div><!-- End home-text-jumbotron -->
   </div> <!-- End Row -->
