@@ -4,8 +4,8 @@ html {
   min-height: 100%;
 }
 body {
-	font-family: Times, Georgia, serif;
-	letter-spacing: 0.1em;
+  font-family: Times, Georgia, serif;
+  letter-spacing: 0.1em;
   line-height: 1.5em;
   background-color: rgba(255, 255, 255, 0.8);
   //margin-bottom: -30px;
@@ -13,11 +13,7 @@ body {
   background-repeat: no-repeat;
   background-position: top;
   Margin bottom == footer height; 
-	margin-top: 90px color: #9d9d9d;
-  vertical-align;: mie !important;
-  padding-top: 15px;
-  font-size: 18px;
-  padding-right: 25px;
+  margin-top: 90px color: #9d9d9d;
 }
 
 .icon {
@@ -31,8 +27,8 @@ body {
   border-radius: 7px;
 }
 #searchFor {
-  padding-left: 7px;
-  border: none;
+/*  padding-left: 7px;*/
+/*  border: none;*/
 }
 #fetchBtn {
   border: none;
@@ -84,14 +80,15 @@ hr {
 jumbotrons
 ***************************/
 .jumbotron {
-  margin: 120px 0 0 0;
-  background: rgba(0, 0, 0, 0.4);
+  margin: 120px 0px 0px 0px;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: .9;   
   color: white;
 }
 
 .jumbotron h1 {
   font-size: 45px;
-  font-weight: 500;
+  font-weight: 450;
   color: black;
   padding-top: 0px;
 }
@@ -103,13 +100,20 @@ jumbotrons
   color: gray;
 }
 .home-text-jumbotron {
-  width: 530px;
-  margin: 0px auto;
+/*  width: 530px;*/
+/*  margin: 0px auto;*/
+  margin-left: auto;
+  margin-right: auto;    
   background: rgba(255, 255, 255, 0.5);
   padding: 10px 35px 10px 35px;
   border-radius: 10px;
 }
-
+.title{
+margin-left: auto;
+margin-right: auto;
+padding-left: 10px;
+padding-right: 10px;    
+}
 
 /* For float  alignment */
 .alignleft {
@@ -119,49 +123,6 @@ jumbotrons
 	float: right;
 }
 
-/*******************************
-Media queries
-********************************/
-@media (max-width: 420px) {
-  .navbar .container {
-    height: 70px !important;
-  }
-}
-/* x-x-small sc (up to 450x) */
-@media (max-width: 550px) {
-  .jumbotron {
-    margin: 90px 0 0 0;
-    background: rgba(0, 0, 0, 0.4);
-    color: white;
-  }
-  .home-text-jumbotron {
-    width: 260px;
-/*    margin: 15px auto 0px auto;*/
-    background: rgba(255, 255, 255, 0.75);
-    padding: 5px 30px 15px 30px;
-    border-radius: 10px;
-  }
-  .icon {
-    margin-top: 8px;
-  }
-  .jumbotron h1 {
-    padding-bottom: -5px;
-  }
-}
-
-/* x-small devices (up to 768px) */
-@media (max-width: 767px) {
-  .hikin {
-    display: none;
-  }
-  #searchFor {
-    padding-left: 5px;
-    margin-left: -8px;
-  }
-  .home-text-jumbotron {
-    //padding-left: 5px;
-    text-align: center;
-}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: @screen-sm-min) {
 
@@ -175,48 +136,35 @@ Media queries
 
 }
 /***************************
-footer
+footer nav
 ***************************/
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  font-size: 13px;
-  background-color: #eee;
-  border: none;
-  padding-top: 3px;
-  max-height: 30px;
-}
+
 
 .copy {
-  padding-top: 20px;
+/*  padding-top: 10px;*/
   color: #4e4e4e;
 }   
 .footer-container {
 /*  padding-right: 15px !important;*/
 /*  padding-left: 15px !important;*/
 }
-  #soc{
-    margin-top: -100p;
-    color: #4e4e4e;
+#soc{
+/*    margin-top: -100p;*/
+/*    color: #4e4e4e;*/
   }
  .list-unstyled {
-  margin-top: -20px;
+/*  margin-bottom: -20px;*/
   margin-left: auto;
   margin-right: auto;
-  padding-left: 10px;
+/*  padding-left: 10px;*/
   text-align: center;
   list-style: none;
 }
 .list-inline li {
   list-style-type:none;
-  display: inline-block;
-  padding-top: 0px;
-  padding-right: 20px;
-  padding-left: 10px;
 }
 .social-icons .fa {
-  font-size: 1.8em;
+  font-size: 1.5em;
   line-height: 0px;
   text-align: center;
   color: #4e4e4e;

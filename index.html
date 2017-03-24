@@ -17,7 +17,7 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.53/responsiveslides.min.js"></script>
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/ResponsiveSlides.js/1.53/responsiveslides.min.js"></script>-->
 <title>wikipedia viewer</title>    
     
 </head>
@@ -30,18 +30,24 @@
 <!-- Jumbotron -->
 <div class='jumbotron'>
   <div class='container'>
+   <div class="row text-center">
     <div class='home-text-jumbotron center-block text-center'>
+     <div class=" title text-center">
       <h1 class='text-muted top'>Wikipedia Viewer</h1>
-      <p>Look up anything:
+     </div>
+     <div>
+      <p>
         <input id='searchFor' type='text' placeholder='Search...'>
         <button class='icon' id='searchBtn'><i class='glyphicon glyphicon-search'></i></button>
       </p>
+     </div>
       <p>Or
         <button id='fetchBtn'>fetch</button> a random article.
       </p>
 
-    </div>
-  </div> <!-- End container -->
+    </div><!-- End home-text-jumbotron -->
+  </div> <!-- End Row -->
+ </div> <!-- End container -->
 </div> <!-- End jumbotron -->
 
 <!-- Search results -->
